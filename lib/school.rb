@@ -13,7 +13,7 @@ def add_student(name,grade)
 @grade = grade
 name.each do |student_name|
 @roster[grade]=[student_name]
-do
+end
 end
 
 def grade(grade)
