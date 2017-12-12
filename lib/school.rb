@@ -26,7 +26,6 @@ end
 
 def sort
   @roster.each do |grade,values|
-    puts "#{grade} #{values}"
     values = values.sort
     @roster[grade]=values
   end
