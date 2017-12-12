@@ -16,6 +16,7 @@ def add_student(name,grade)
     @roster[grade]=[student_name]
   else
     @roster[grade]<<[student_name]
+  end
 end
 end
 
