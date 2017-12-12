@@ -21,7 +21,7 @@ end
 end
 
 def grade(grade)
-@roster.slect(grade)
+@roster.select(grade)
 end
 
 end
