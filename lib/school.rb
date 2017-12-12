@@ -12,7 +12,10 @@ def add_student(name,grade)
 @name =name
 @grade = grade
 [name].each do |student_name|
-@roster[grade]=[student_name]
+  if @roster== {}
+    @roster[grade]=[student_name]
+  else
+    @roster[grade]<<[student_name]
 end
 end
 
