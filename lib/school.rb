@@ -25,8 +25,8 @@ def grade(grade)
 end
 
 def sort
-@roster.each do |grade,values|
-
+@roster.each do |grade|
+puts grade
 end
 end
 
