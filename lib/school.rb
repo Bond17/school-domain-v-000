@@ -8,9 +8,9 @@ def initialize(school_name)
 end
 
 def add_student(name,grade)
-@name =[name]
+@name =name
 @grade=grade
-@roster[grade]=name
+@roster[grade]=[name]
 end
 
 def grade(grade)
