@@ -30,5 +30,6 @@ grade.each do |names|
 puts names
 end
 end
+end
 
 end
